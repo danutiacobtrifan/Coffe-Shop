@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS Links -->
+    <link rel="stylesheet" href="../css/meniu.css">
+    <title>Coffee Shop</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+
+    <!-- Boostrap v5.1.3 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Google Fonts  -->
+    <link href='https://fonts.googleapis.com/css?family=Bigshot One' rel='stylesheet'>
+
+    <!-- W3schools link -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+
+<body>
+    <div class="meniu-complet">
+        <div class="meniu-title">
+            <h1><b><i>Meniu Complet</i></b></h1>
+            <hr>
+        </div>
+        <div class="meniu-subtitle">
+            <h2>Espresso</h2>
+            <hr>
+        </div>
+        <div class="meniu-flex">
+            <div class="meniu">
+                <h3 onclick="showOrHide()">Espresso</h3>
+                <div class="line"></div>
+                <div>
+                    <h4> 7 ron</h4>
+                </div>
+            </div>
+            <div class="meniu">
+                <h3 onclick="showOrHide()">Espresso Dublu</h3>
+                <div class="line"></div>
+                <div>
+                    <h4> 9 ron</h4>
+                </div>
+            </div>
+
+            <div class="meniu">
+                <h3 onclick="showOrHide()">Long Blanck</h3>
+                <div class="line"></div>
+                <div>
+                    <h4> 7 ron</h4>
+                </div>
+            </div>
+
+            <div class="meniu">
+                <h3 onclick="showOrHide()">Americano</h3>
+                <div class="line"></div>
+                <div>
+                    <h4> 9 ron</h4>
+                </div>
+            </div>
+
+            <div class="meniu">
+                <h3 onclick="showOrHide()">Siphon</h3>
+                <div class="line"></div>
+                <div>
+                    <h4> 14 ron</h4>
+                </div>
+            </div>
+
+            <div class="meniu">
+                <h3 onclick="showOrHide()">Cold Brew</h3>
+                <div class="line"></div>
+                <div>
+                    <h4> 17 ron</h4>
+                </div>
+            </div>
+
+            <div class="meniu">
+                <h3 onclick="showOrHide()">Extra Shot Cafea</h3>
+                <div class="line"></div>
+                <div>
+                    <h4> +3 ron</h4>
+                </div>
+            </div>
+        </div>
+
+        <div class="meniu-subtitle">
+            <hr>
+            <h2>Bauturi cu Lapte</h2>
+            <hr>
+        </div>
+        <div class="meniu-flex">
+            <div class="meniu">
+                <h3 onclick="showOrHide()">Caffee Latte</h3>
+                <div class="line"></div>
+                <div>
+                    <h4> 15 ron</h4>
+                </div>
+            </div>
+
+            <div class="meniu">
+                <h3 onclick="showOrHide()">Latte XL</h3>
+                <div class="line"></div>
+                <div>
+                    <h4> 19 ron</h4>
+                </div>
+            </div>
+
+            <div class="meniu">
+                <h3 onclick="showOrHide()">Cappuccino</h3>
+                <div class="line"></div>
+                <div>
+                    <h4> 12 ron</h4>
+                </div>
+            </div>
+
+            <div class="meniu">
+                <h3 onclick="showOrHide()">Flat White</h3>
+                <div class="line"></div>
+                <div>
+                    <h4> 13 ron</h4>
+                </div>
+            </div>
+
+            <div class="meniu">
+                <h3 onclick="showOrHide()">Mochacciono</h3>
+                <div class="line"></div>
+                <div>
+                    <h4> 13 ron</h4>
+                </div>
+            </div>
+
+            <div class="meniu">
+                <h3 onclick="showOrHide()">Irish Coffee</h3>
+                <div class="line"></div>
+                <div>
+                    <h4> 17 ron</h4>
+                </div>
+            </div>
+
+            <div class="meniu">
+                <h3 onclick="showOrHide()">Machiato</h3>
+                <div class="line"></div>
+                <div>
+                    <h4> 10 ron</h4>
+                </div>
+            </div>
+
+            <div class="meniu">
+                <h3 onclick="showOrHide()">Lapte Soia/Migdale Extra</h3>
+                <div class="line"></div>
+                <div>
+                    <h4> +2 ron</h4>
+                </div>
+            </div>
+        </div>
+        <div class="meniu-subtitle">
+            <hr>
+            <h2>Bauturi cu Gheata</h2>
+            <hr>
+        </div>
+        <div class="meniu-flex">
+            <div class="meniu">
+                <h3 onclick="showOrHide()">Iced Espresso</h3>
+                <div class="line"></div>
+                <div>
+                    <h4> 10 ron</h4>
+                </div>
+            </div>
+
+            <div class="meniu">
+                <h3 onclick="showOrHide()">Ice Latte</h3>
+                <div class="line"></div>
+                <div>
+                    <h4> 14 ron</h4>
+                </div>
+            </div>
+
+            <div class="meniu">
+                <h3 onclick="showOrHide()">Freddo Capuccino</h3>
+                <div class="line"></div>
+                <div>
+                    <h4> 12 ron</h4>
+                </div>
+            </div>
+
+            <div class="meniu">
+                <h3 onclick="showOrHide()">Ice Tea </h3>
+                <div class="line"></div>
+                <div>
+                    <h4> 12 ron</h4>
+                </div>
+            </div>
+
+            <div class="meniu">
+                <h3 onclick="showOrHide()">Frappe</h3>
+                <div class="line"></div>
+                <div>
+                    <h4> 20 ron</h4>
+                </div>
+            </div>
+        </div>
+
+        <div class="meniu-subtitle">
+            <hr>
+            <h2>Bauturi Calde</h2>
+            <hr>
+        </div>
+
+        <div class="meniu-flex">
+            <div class="meniu">
+                <h3 onclick="showOrHide()">Chai Latte</h3>
+                <div class="line"></div>
+                <div>
+                    <h4> 11 ron</h4>
+                </div>
+            </div>
+
+            <div class="meniu">
+                <h3 onclick="showOrHide()">Chai Latte Grande</h3>
+                <div class="line"></div>
+                <div>
+                    <h4> 15 ron</h4>
+                </div>
+            </div>
+
+            <div class="meniu">
+                <h3 onclick="showOrHide()">Ciocolata Calda</h3>
+                <div class="line"></div>
+                <div>
+                    <h4> 11 ron</h4>
+                </div>
+            </div>
+
+            <div class="meniu">
+                <h3 onclick="showOrHide()">Ceai Organic</h3>
+                <div class="line"></div>
+                <div>
+                    <h4> 10 ron</h4>
+                </div>
+            </div>
+        </div>
+
+        <div class="meniu-subtitle">
+            <hr>
+            <h2>Bauturi Racoritoare</h2>
+            <hr>
+        </div>
+
+        <div class="meniu-flex">
+            <div class="meniu">
+                <h3 onclick="showOrHide()">Smoothie</h3>
+                <div class="line"></div>
+                <div>
+                    <h4> 15 ron</h4>
+                </div>
+            </div>
+
+            <div class="meniu">
+                <h3 onclick="showOrHide()">Fresh</h3>
+                <div class="line"></div>
+                <div>
+                    <h4> 13 ron</h4>
+                </div>
+            </div>
+
+            <div class="meniu">
+                <h3 onclick="showOrHide()">Limonada</h3>
+                <div class="line"></div>
+                <div>
+                    <h4> 13 ron</h4>
+                </div>
+            </div>
+
+            <div class="meniu">
+                <h3 onclick="showOrHide()">Apa</h3>
+                <div class="line"></div>
+                <div>
+                    <h4> 5 ron</h4>
+                </div>
+            </div>
+
+            <div class="meniu">
+                <h3 onclick="showOrHide()">Coca Cola</h3>
+                <div class="line"></div>
+                <div>
+                    <h4> 6 ron</h4>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="../JS/meniu.js"></script>
+</body>
+
+</html>
